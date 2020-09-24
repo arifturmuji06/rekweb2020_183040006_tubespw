@@ -1,0 +1,378 @@
+body {
+    font-family: 'roboto';
+    background-color: black;
+    background: url('../img/bg-brown-low.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+nav#navbar {
+    background-image: linear-gradient(to bottom right, #4b3422, #af8450);
+    border-bottom: 5px solid #4a2b13;
+    height: 75px;
+}
+
+a.brand-logo.page-scroll {
+    height: 75px;
+    line-height: 75px;
+}
+
+ul.right.hide-on-med-and-down {
+    height: 75px;
+    line-height: 75px;
+}
+
+#intro {
+    margin: 42px auto;
+    background-color: #d4b083;
+    border-radius: 10px;
+    padding: 20px 50px;
+    height: fit-content;
+}
+
+footer.my-bg-color.white-text.center {
+    background-image: linear-gradient(to bottom right, #4b3422, #af8450);
+    background-position: center;
+    /* height: 180px; */
+    padding: 0;
+}
+
+li.social-icon {
+    display: inline;
+}
+
+.col.m6.s12.left.right-align h6 a {
+    color: white;
+}
+
+.col.m6.s12.left.right-align h6 a:hover {
+    color: #533b26;
+}
+
+.social-media .social-icon a:hover img {
+    filter: brightness(60%);
+}
+
+img.circle.responsive-img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.bg-opacity {
+    height: 100%;
+    border-top: 5px solid rgb(74, 43, 19);
+    border-bottom: 5px solid rgb(74, 43, 19);
+    position: relative;
+}
+
+.row.footer-content {
+    margin: 20px 0 70px;
+}
+
+.col.m6.s12, .col.m3.s12 {
+    max-height: 230px;
+    overflow: hidden;
+}
+
+footer p {
+    margin: 30px 0 10px;
+}
+
+.col.m3.list-item-book img {
+    width: 190px;
+    height: auto;
+    margin: 10px auto;
+}
+
+div#content-book {
+    margin: 80px auto;
+}
+
+.col.m3.list-item-book {
+    width: 225px;
+    height: auto;
+    margin: 5px;
+    text-align: center !important;
+    padding: 0;
+    float: left;
+}
+p.judul-item-book {
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: #4e3724;
+    border-radius: 5px;
+}
+.cover-itemm-book {
+    height: 320px;
+    padding: 10px 0;
+}
+
+div#content-book, div#content-detail, div#content-library, div#content-admin, div#content-admin-table {
+    background: #d4b083;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+
+.judul-item-book a {
+    color: white;
+}
+
+.judul-item-book a:hover {
+    color: #d4b083;
+}
+
+div#content-library, div#content-admin-table {
+    width: 100%;
+    min-height: 500px;
+}
+
+#content-library .col.m3.list-item-book img {
+    width: 150px;
+}
+
+#content-library .col.m3.list-item-book {
+    width: 200px;
+    margin-top: 20px
+}
+
+#content-library .cover-itemm-book {
+    height: 275px;
+}
+
+#content-library p.judul-item-book {
+    margin-bottom: 15px;
+}
+
+#content-library .option, #content-admin .option, #content-admin-table .option {
+    background-color: #f0ece9;
+    margin: 40px 0 0 20px;
+    border: 2px solid #af7447;
+    border-radius: 5px;
+    height: 400px;
+}
+
+#content-library input#keyword, #content-admin input#keyword, #content-admin-table input.keyword {
+    height: 25px;
+    width: 120px;
+    margin: 10px 0 10px 6px;
+}
+
+#content-library i.small, #content-admin i.small, #content-admin-table i.small {
+    font-size: 1rem;
+}
+
+
+
+/* CSS Content */
+
+p.sinopsis {
+    margin: 0 !important;
+    background: none !important;
+    padding: 5px 50px 5px 40px !important;
+    text-align: justify !important;
+}
+
+.btn {
+    background-color: #4e3724 !important;
+}
+
+.btn:hover {
+    background-color: #674930 !important;
+}
+
+.clear.center.add-btn {
+    margin-top: 35px;
+}
+
+div#content-detail {
+    min-height: 600px;
+}
+
+#content-detail h1.judul {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+}
+
+#content-detail .cover {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+#content-detail .detail {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+#content-detail .cover img {
+    width: 260px;
+    margin: 0 55px;
+}
+
+#content-detail .detail tr {
+    border: none;
+}
+
+#content-detail .detail td {
+    padding: 5px;
+}
+
+#content-detail table {
+    width: 260px;
+}
+
+#content-detail .detail p {
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #4e3724;
+    border-radius: 5px;
+}
+
+#content-detail a.back {
+    color: white;
+}
+
+#content-detail a.back:hover {
+    color: #d4b083;
+}
+
+#content-admin .row.list-table, #content-login .row.list-table {
+    align-content: center;
+}
+
+#content-admin .list-table .col.l12, #content-login .list-table .col.l12 {
+    width: 80%;
+    margin: 30px 95px;
+    background-color: #f0ece9;
+    border: 3px solid #af7447;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+}
+
+#content-admin .table-title a  {
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 5px 0;
+    background-color: #4e3724;
+    border-radius: 6px;
+}
+
+#content-admin h3 {
+    float: left;
+}
+
+#content-admin .table-title a h6{
+    margin: 0;
+    line-height: 30px;
+}
+
+}
+
+#content-admin .table-title a:hover {
+    color: #d4b083;
+}
+
+.table-content.clear {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+#content-admin .left, #content-admin .right {
+    width: 45%;
+    height: 350px;
+}
+
+#content-admin-table input:focus, 
+#content-admin input:focus, 
+#content-admin textarea:focus, 
+#content-library input:focus, 
+#content-login input:focus {
+    border-bottom: 1px solid #af7447;
+    box-shadow: 0 1px 0 0 #af7447;
+}
+
+.action-edit li {
+    display: inline-block;
+}
+
+.action-edit ul {
+    margin: 0;
+}
+
+.action-edit a h6 {
+    width: fit-content;
+    height: 23px;
+    line-height: 12px;
+    padding: 5px;
+    background-color: #4e3724;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.action-edit a h6:hover {
+    color: #d4b083;
+}
+
+.action-edit {
+    text-align: center;
+}
+
+#content-login .list-table .col.l12 {
+    width: 45%;
+    margin: 30px 260px;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #af7447;
+    background-color: #af7447;
+}
+
+.register a p {
+    width: 80px;
+    margin: 20px auto 0;
+    color: #9e9e9e;
+    font-size: 18px;
+}
+
+.register a p:hover {
+    color: #5a5a5a;
+}
+
+.sorting {
+    margin: 0 6px;
+}
+
+.sorting ul {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.sorting li a {
+    color: #4e3724;
+}
+
+.sorting li a:hover {
+    color: #946e43;
+}
+
+#content-admin.add-author .left, #content-admin.add-author .right {
+    width: 45%;
+    height: 250px !important;
+}
